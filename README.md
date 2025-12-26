@@ -1,56 +1,140 @@
 # Digital Life Decisions Engine
-(DSA Project)
 
-## Project Type
-This project is developed as a **Data Structures & Algorithms (DSA) course project**.
+A GUI-based decision analysis system built using **JavaFX** and **Data Structures & Algorithms (DSA)** to help users make data-driven life decisions.
 
-## Project Description
-Digital Life Decisions Engine is a JavaFX-based desktop application that helps users
-make better life decisions by analyzing past outcomes. The system stores decisions,
-tracks option success, and suggests the best possible option using data-driven logic.
+---
 
-## Data Structures Used
-The following core data structures are used in this project:
+## 📌 Project Overview
 
-- **HashMap**
-  - Stores decisions using decision titles as keys
-  - Stores options and their success count
+The **Digital Life Decisions Engine** is a desktop application designed to analyze daily decisions by tracking outcomes over time.  
+By leveraging core DSA concepts such as **HashMaps**, **Stacks**, and **Lists**, the system enables users to evaluate options, undo actions, and identify the most successful choices based on historical data.
 
-- **Stack**
-  - Used for implementing the Undo functionality
+This project demonstrates practical implementation of **DSA**, **OOP**, and **Software Engineering principles** through a clean, modular architecture.
 
-- **ArrayList**
-  - Used for storing decisions during file serialization
+---
 
-## Algorithms / Logic
-- Searching best option using maximum success count
-- Undo operation using LIFO principle
-- File handling using Object Serialization
+## 🎯 Key Objectives
 
-## Features
-- Add new decisions
+- Provide a structured framework for decision tracking
+- Apply Data Structures for real-world problem solving
+- Implement undo functionality using stack-based rollback
+- Persist user data using file serialization
+- Follow modular and maintainable design practices
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java**
+- **JavaFX** (GUI)
+- **Data Structures & Algorithms**
+  - HashMap
+  - Stack
+  - ArrayList / List
+- **File Handling & Serialization**
+- **MVC-inspired Architecture**
+
+---
+
+## ⚙️ Core Features
+
+- ➕ Add new decisions with multiple options  
+- 📊 Record success or failure outcomes  
+- 🔁 Undo last recorded action  
+- ⭐ Suggest the best option based on historical success  
+- 📜 View complete decision history  
+- 💾 Persistent storage across sessions  
+
+---
+
+## 🧩 Data Structures Usage
+
+| Data Structure | Purpose |
+|----------------|--------|
+| `HashMap` | Stores decisions and maps options to success counts |
+| `ArrayList` | Maintains ordered lists of decision options |
+| `Stack` | Enables undo functionality by storing previous actions |
+
+---
+
+## 🧠 System Design
+
+- **Model** → Decision data, outcomes, persistence logic  
+- **View** → JavaFX GUI components  
+- **Controller** → Handles user interactions and system logic  
+
+The system follows a **clean separation of concerns**, improving readability, maintainability, and scalability.
+
+---
+
+## 📈 Functional Requirements
+
+- Create and manage decision profiles
 - Add multiple options per decision
-- Record outcomes
-- Undo last action
-- Suggest best option
-- View decision history
-- Animated JavaFX GUI
+- Record outcomes (Success / Failure)
+- Undo the most recent action
+- Suggest best option using historical data
+- Display complete decision history
 
-## Technologies Used
-- Java
-- JavaFX
-- Data Structures & Algorithms
-- Object-Oriented Programming (OOP)
-- File Handling (Serialization)
+---
 
-## Documentation
-Detailed project documentation was prepared separately that explains the system design, data structures, and logic in detail.
+## 📉 Non-Functional Requirements
 
-## How to Run
-1. Open project in IntelliJ or Eclipse
-2. Configure JavaFX properly
-3. Run `Main.java`
+- User-friendly and intuitive interface
+- Fast data retrieval with minimal latency
+- Reliable data persistence
+- Modular and maintainable codebase
 
-## Author
-Saiba Maka  
-BS Computer Science
+---
+
+## 🚧 Limitations
+
+- File-based storage only (no database)
+- Single-user desktop application
+- Rule-based suggestion logic (not AI-powered)
+- Limited scalability
+
+---
+
+## 🚀 Future Enhancements
+
+- Database integration (MySQL / SQLite)
+- Machine learning-based decision suggestions
+- Multi-user support
+- Advanced UI themes and animations
+- Cloud-based data synchronization
+
+---
+
+## 🧪 Testing
+
+- Manual testing of all use cases
+- Validation of undo functionality
+- Verification of data persistence across sessions
+- GUI responsiveness and input validation
+
+---
+
+## 📚 References
+
+- Oracle Java Documentation  
+  https://docs.oracle.com
+- JavaFX Official Documentation  
+  https://openjfx.io
+- Data Structures & Algorithms Textbooks
+- Software Engineering Principles  
+  *(Pressman, Sommerville)*
+
+---
+
+## 👩‍💻 Author
+
+**Saiba Maka**  
+BS Computer Science Student  
+DSA & JavaFX Project
+
+---
+
+## 📄 License
+
+This project is created for **academic and learning purposes**.
