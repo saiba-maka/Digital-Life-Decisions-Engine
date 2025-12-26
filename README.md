@@ -4,7 +4,7 @@ A GUI-based decision analysis system built using **JavaFX** and **Data Structure
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Digital Life Decisions Engine** is a desktop application designed to analyze daily decisions by tracking outcomes over time.  
 By leveraging core DSA concepts such as **HashMaps**, **Stacks**, and **Lists**, the system enables users to evaluate options, undo actions, and identify the most successful choices based on historical data.
@@ -13,7 +13,7 @@ This project demonstrates practical implementation of **DSA**, **OOP**, and **So
 
 ---
 
-## 🎯 Key Objectives
+##  Key Objectives
 
 - Provide a structured framework for decision tracking
 - Apply Data Structures for real-world problem solving
@@ -23,7 +23,7 @@ This project demonstrates practical implementation of **DSA**, **OOP**, and **So
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Java**
 - **JavaFX** (GUI)
@@ -36,18 +36,18 @@ This project demonstrates practical implementation of **DSA**, **OOP**, and **So
 
 ---
 
-## ⚙️ Core Features
+##  Core Features
 
-- ➕ Add new decisions with multiple options  
-- 📊 Record success or failure outcomes  
-- 🔁 Undo last recorded action  
-- ⭐ Suggest the best option based on historical success  
-- 📜 View complete decision history  
-- 💾 Persistent storage across sessions  
+-  Add new decisions with multiple options  
+-  Record success or failure outcomes  
+-  Undo last recorded action  
+-  Suggest the best option based on historical success  
+-  View complete decision history  
+-  Persistent storage across sessions  
 
 ---
 
-## 🧩 Data Structures Usage
+##  Data Structures Usage
 
 | Data Structure | Purpose |
 |----------------|--------|
@@ -57,7 +57,7 @@ This project demonstrates practical implementation of **DSA**, **OOP**, and **So
 
 ---
 
-## 🧠 System Design
+##  System Design
 
 - **Model** → Decision data, outcomes, persistence logic  
 - **View** → JavaFX GUI components  
@@ -67,7 +67,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 📈 Functional Requirements
+##  Functional Requirements
 
 - Create and manage decision profiles
 - Add multiple options per decision
@@ -78,7 +78,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 📉 Non-Functional Requirements
+##  Non-Functional Requirements
 
 - User-friendly and intuitive interface
 - Fast data retrieval with minimal latency
@@ -87,7 +87,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
 - File-based storage only (no database)
 - Single-user desktop application
@@ -96,7 +96,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Database integration (MySQL / SQLite)
 - Machine learning-based decision suggestions
@@ -106,7 +106,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 - Manual testing of all use cases
 - Validation of undo functionality
@@ -115,7 +115,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 📚 References
+##  References
 
 - Oracle Java Documentation  
   https://docs.oracle.com
@@ -127,7 +127,7 @@ The system follows a **clean separation of concerns**, improving readability, ma
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Saiba Maka**  
 BS Computer Science Student  
@@ -135,6 +135,6 @@ DSA & JavaFX Project
 
 ---
 
-## 📄 License
+##  License
 
 This project is created for **academic and learning purposes**.
